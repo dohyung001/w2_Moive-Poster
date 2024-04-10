@@ -9,7 +9,8 @@ function App() {
     <div style={{
       backgroundColor: 'rgb(34,38,76)',
       width: '100vw',
-      height: '100%'
+      height: '100vh',
+      overflowY: 'scroll'
     }}>
       <MovieList movies={movies.results} />;
     </div>
